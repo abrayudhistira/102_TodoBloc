@@ -11,7 +11,7 @@ const TodoPage({ Key? key }) : super(key: key);
     final _controller = TextEditingController();
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Title'),
+        title: const Text('Todo App'),
       ),
       body: SafeArea(
         child: Padding(
