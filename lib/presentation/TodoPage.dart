@@ -18,7 +18,13 @@ const TodoPage({ Key? key }) : super(key: key);
             children: [
               Text('Todo List'),
               Row(
-                
+                children: [
+                  Column(
+                    children: [
+                      Text('Selected Date'),
+                    ],
+                  ),
+                ],
               ),
             ],
           ),
