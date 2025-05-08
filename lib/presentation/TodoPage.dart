@@ -76,6 +76,10 @@ const TodoPage({ Key? key }) : super(key: key);
                         },
                       ),
                     ),
+                    FilledButton(
+                      onPressed: () {}, 
+                      child: Text('Tambah'),
+                    )
                   ],
                 ),
                 )
