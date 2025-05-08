@@ -92,10 +92,13 @@ const TodoPage({ Key? key }) : super(key: key);
                         }
                       }, 
                       child: Text('Tambah'),
-                    )
+                    ),
                   ],
                 ),
-                )
+              ),
+              SizedBox(height: 16.0),
+              Expanded(
+                child: child),
             ],
           ),
           )
