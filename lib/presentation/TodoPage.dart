@@ -11,7 +11,12 @@ const TodoPage({ Key? key }) : super(key: key);
       appBar: AppBar(
         title: const Text('Title'),
       ),
-      body: Container(),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(),
+          )
+        ),
     );
   }
 }
