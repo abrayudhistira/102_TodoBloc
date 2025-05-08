@@ -68,6 +68,12 @@ const TodoPage({ Key? key }) : super(key: key);
                           labelText: 'Todo',
                          border: OutlineInputBorder(),
                         ),
+                        validator: (value) {
+                          if (value == null || value.isEmpty) {
+                            return 'Please enter a todo';
+                          }
+                          return null;
+                        },
                       ),
                     ),
                   ],
