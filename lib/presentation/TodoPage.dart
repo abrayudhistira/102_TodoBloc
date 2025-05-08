@@ -14,7 +14,14 @@ const TodoPage({ Key? key }) : super(key: key);
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
-          child: Column(),
+          child: Column(
+            children: [
+              Text('Todo List'),
+              Row(
+                
+              ),
+            ],
+          ),
           )
         ),
     );
