@@ -98,7 +98,12 @@ const TodoPage({ Key? key }) : super(key: key);
               ),
               SizedBox(height: 16.0),
               Expanded(
-                child: child),
+                child: BlocBuilder<TodoBloc, TodoState> (
+                  builder: (context, state) {
+                    
+                  },
+                )
+              ),
             ],
           ),
           )
